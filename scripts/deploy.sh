@@ -13,10 +13,10 @@ git pull
 pip install -r requirements.txt
 
 # run the databse migration
-python manage.py migrate
+python3 manage.py migrate
 
 # run the collect static command
-python manage.py collectstatic
+python3 manage.py collectstatic
 
 # put all other commads that required for you specific app
 
